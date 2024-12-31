@@ -8,6 +8,7 @@ html,
 body {
     width: 100%;
     overflow-x: hidden; /* Prevent horizontal scroll */
+    overflow-y: hidden; /* Prevent horizontal scroll */
     font-family: "Poppins", sans-serif; /* Apply the font globally */
 }
 

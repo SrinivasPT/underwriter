@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./Analyze.module.css"; // Import CSS module
 import VerticalTabs from "./vertical-tab/VerticalTabs";
 import BankStatement from "./bank-statement/BankStatement";
+import ChatWindow from "./chat-window/ChatWindow";
 
 const Analyze = () => {
     const [chatWidth, setChatWidth] = useState(40); // Default chat width in percentage
@@ -80,9 +81,8 @@ const Analyze = () => {
                 <div className={styles.resizableHandle} onMouseDown={handleMouseDown} />
 
                 {/* Chat Window */}
-                <div className={styles.chatWindow} style={{ width: `${chatWidth}%` }}>
-                    <h2 className={styles.chatTitle}>Chat Window</h2>
-                    <p>This is the chat area. Add your chat functionality here...</p>
+                <div className={styles.chatSection} style={{ width: `${chatWidth}%` }}>
+                    <ChatWindow />
                 </div>
             </div>
         </div>

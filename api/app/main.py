@@ -10,6 +10,11 @@ import json
 app = FastAPI()
 
 
+@app.get("/")
+def read_root():
+    return {"message": "Hello, World!"}
+
+
 # Endpoint to submit a loan application
 @app.post("/api/loan-applications")
 async def create_loan_application(payload: dict):
@@ -32,4 +37,4 @@ async def get_loan_application(request_id: str):
         return {"status": request["status_code"]}
     # If the request is completed, fetch the response
     response = get_response_for_request(request_id)
-    return {"status": "completed", "response": response["payload"]}
+    return {"status": "completed", "response": response["response"]}

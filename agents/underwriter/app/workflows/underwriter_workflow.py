@@ -30,8 +30,8 @@ class WorkflowState(TypedDict):
 
 
 # Initialize LLM
-# llm = ChatOpenAI(model="gpt-4o-mini", temperature=0, max_retries=2, retry_delay=10)
-llm = ChatGroq(model="llama-3.3-70b-versatile", max_retries=3, retry_delay=10)
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0, max_retries=2)
+# llm = ChatGroq(model="llama-3.3-70b-versatile", max_retries=3, retry_delay=10)
 
 
 # Define nodes

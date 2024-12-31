@@ -104,7 +104,7 @@ def process_pending_requests():
                 INSERT INTO request_response (id, response)
                 VALUES (UNHEX(%s), %s)
                 """,
-                (request["id"], result),
+                (request["id"], json.dumps(result)),
             )
             connection.commit()
 

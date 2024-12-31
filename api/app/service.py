@@ -50,7 +50,7 @@ def get_response_for_request(request_id):
     conn = get_db_connection()
     cursor = conn.cursor(dictionary=True)
     query = """
-    SELECT id, payload
+    SELECT id, response
     FROM request_response
     WHERE id = UNHEX(%s)
     """

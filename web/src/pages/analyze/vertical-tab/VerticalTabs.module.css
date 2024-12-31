@@ -1,10 +1,11 @@
 /* Sidebar */
 .sidebar {
-    width: 60px; /* Reduced width for compact tabs */
-    background-color: #2c3e50; /* Dark background for the sidebar */
-    color: #ffffff; /* White text color */
+    width: 40px; /* Reduced width for compact tabs */
+    background-color: rgb(241, 244, 247); /* Dark background for the sidebar */
+    color: #494646; /* White text color */
     height: 100vh; /* Full height */
-    padding: 1rem; /* Padding for spacing */
+    padding: 0.1rem; /* Padding for spacing */
+    padding-top: 20px;
     box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1); /* Shadow for separation */
 }
 
@@ -27,5 +28,5 @@
 }
 
 .tabItem:hover {
-    background-color: #34495e; /* Hover background color */
+    background-color: #fbfcfd; /* Hover background color */
 }

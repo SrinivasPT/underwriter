@@ -4,7 +4,10 @@ const Header = () => {
     return (
         <header>
             {/* Bootstrap Navbar */}
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav
+                className="navbar navbar-expand-lg navbar-light bg-light"
+                style={{ background: "linear-gradient(45deg,rgb(172, 186, 199) 0%,rgb(14, 32, 109) 100%)" }}
+            >
                 <div className="container-fluid">
                     {/* Logo */}
                     <a className="navbar-brand" href="/">
@@ -28,27 +31,27 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
-                                <a className="nav-link" href="/">
+                                <a className="nav-link text-white" href="/">
                                     Home
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/analyze">
+                                <a className="nav-link text-white" href="/analyze">
                                     Analyze
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/analyze1">
+                                <a className="nav-link text-white" href="/analyze1">
                                     Analyze One
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/about">
+                                <a className="nav-link text-white" href="/about">
                                     About
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/contact">
+                                <a className="nav-link text-white" href="/contact">
                                     Contact
                                 </a>
                             </li>

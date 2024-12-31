@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../header/Header";
-import Footer from "../footer/Footer";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Layout = ({ children }) => {
     return (
@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
             <Header />
 
             <main className="flex-grow-1">
-                <div className="container-fluid">{children}</div>
+                <div className="container-fluid px-0 py-0">{children}</div>
             </main>
 
             <Footer />

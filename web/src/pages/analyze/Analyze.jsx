@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Analyze.module.css"; // Import CSS module
 import VerticalTabs from "./vertical-tab/VerticalTabs";
-import BankStatement from "./bank-statement/BankStatement";
+import BankStatementAnalysis from "./bank-statement-analysis/BankStatementAnalysis";
 import ChatWindow from "./chat-window/ChatWindow";
+import LoanApplicationReview from "./loan-application-review/LoanApplicationReview";
+import CibilReportAnalysis from "./cibil-report-analysis/CibilReportAnalysis";
 
 const Analyze = () => {
     const [chatWidth, setChatWidth] = useState(40); // Default chat width in percentage
@@ -56,23 +58,23 @@ const Analyze = () => {
                     <section id="bank-statement" className={styles.section}>
                         <div className={styles.sectionContent}>
                             <h3 className={styles.sectionTitle}>Bank Statement Analysis</h3>
-                            <BankStatement />
+                            <BankStatementAnalysis />
                         </div>
                     </section>
 
                     {/* CIBIL Report Section */}
                     <section id="cibil-report" className={styles.section}>
                         <div className={styles.sectionContent}>
-                            <h5 className={styles.sectionTitle}>CIBIL Report Analysis</h5>
-                            {/* <CibilReportAnalysis /> */}
+                            <h3 className={styles.sectionTitle}>CIBIL Report Analysis</h3>
+                            {<CibilReportAnalysis />}
                         </div>
                     </section>
 
                     {/* Loan Application Section */}
                     <section id="loan-application" className={styles.section}>
                         <div className={styles.sectionContent}>
-                            <h5 className={styles.sectionTitle}>Loan Application Report</h5>
-                            {/* <LoanApplicationReport /> */}
+                            <h3 className={styles.sectionTitle}>Loan Application Report</h3>
+                            {<LoanApplicationReview />}
                         </div>
                     </section>
                 </div>

@@ -1,0 +1,31 @@
+/* Sidebar */
+.sidebar {
+    width: 60px; /* Reduced width for compact tabs */
+    background-color: #2c3e50; /* Dark background for the sidebar */
+    color: #ffffff; /* White text color */
+    height: 100vh; /* Full height */
+    padding: 1rem; /* Padding for spacing */
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1); /* Shadow for separation */
+}
+
+/* Tab List */
+.tabList {
+    list-style: none;
+    padding: 0;
+}
+
+/* Tab Item */
+.tabItem {
+    margin-bottom: 1rem;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    writing-mode: vertical-rl; /* Rotate the text vertically */
+    transform: rotate(180deg); /* Flip the text to read from bottom to top */
+}
+
+.tabItem:hover {
+    background-color: #34495e; /* Hover background color */
+}

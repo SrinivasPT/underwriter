@@ -47,12 +47,9 @@ const Analyze = () => {
 
     return (
         <div className={styles.container}>
-            {/* Vertical Tabs */}
-            <VerticalTabs />
-
-            {/* Main Content */}
             <div className={styles.mainContent}>
                 {/* Content Sections */}
+                <VerticalTabs />
                 <div className={styles.contentSections} style={{ width: `${100 - chatWidth}%` }}>
                     {/* Bank Statement Section */}
                     <section id="bank-statement" className={styles.section}>

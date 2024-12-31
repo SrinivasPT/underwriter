@@ -1,3 +1,6 @@
+/* index.css */
+
+/* Reset and Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -6,21 +9,49 @@
 
 html,
 body {
+    height: 100%;
     width: 100%;
-    overflow-x: hidden; /* Prevent horizontal scroll */
-    overflow-y: hidden; /* Prevent horizontal scroll */
-    font-family: "Poppins", sans-serif; /* Apply the font globally */
+    margin: 0;
+    overflow: hidden; /* Hide browser scrollbar */
+    font-family: "Poppins", sans-serif !important; /* Apply the font globally and override Bootstrap */
 }
 
+/* Override Bootstrap's default font styles */
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+/* Headings */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-weight: 600; /* Bold weight for headings */
+    font-family: "Poppins", sans-serif !important; /* Ensure headings use Poppins */
+    font-weight: 600 !important; /* Bold weight for headings */
 }
 
+/* Paragraphs */
 p {
-    font-weight: 400; /* Regular weight for paragraphs */
+    font-family: "Poppins", sans-serif !important; /* Ensure paragraphs use Poppins */
+    font-weight: 400 !important; /* Regular weight for paragraphs */
 }
+
+/* Links */
+a {
+    font-family: "Poppins", sans-serif !important; /* Ensure links use Poppins */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Buttons */
+button {
+    font-family: "Poppins", sans-serif !important; /* Ensure buttons use Poppins */
+}
+
+/* Override Bootstrap's default styles for specific components */
+.navbar {
+    font-family: "Poppins", sans-serif !important;
+}
+
+/* Add more custom styles as needed */

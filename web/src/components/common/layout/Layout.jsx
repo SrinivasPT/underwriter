@@ -4,21 +4,14 @@ import Footer from "../footer/Footer";
 
 const Layout = ({ children }) => {
     return (
-        <div className="d-flex flex-column vh-100">
-            {/* Fixed Header */}
-            <header className="flex-shrink-0 bg-light" style={{ height: "82px" }}>
-                <Header />
-            </header>
+        <div className="d-flex flex-column min-vh-100">
+            <Header />
 
-            {/* Scrollable Main Content */}
-            <main className="flex-grow-1 d-flex flex-column overflow-auto">
-                <div className="container">{children}</div>
+            <main className="flex-grow-1">
+                <div className="container-fluid">{children}</div>
             </main>
 
-            {/* Fixed Footer */}
-            <footer className="flex-shrink-0 bg-light" style={{ height: "40px" }}>
-                <Footer />
-            </footer>
+            <Footer />
         </div>
     );
 };

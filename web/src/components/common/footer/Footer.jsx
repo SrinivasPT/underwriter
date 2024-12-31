@@ -1,10 +1,11 @@
 import React from "react";
-import styles from "./Footer.module.css";
 
 const Footer = () => {
     return (
-        <footer className={styles.footer}>
-            <p>&copy; 2024 AccuLoan App. All rights reserved.</p>
+        <footer className="bg-light py-3 mt-auto">
+            <div className="container text-center">
+                <p className="m-0">&copy; 2024 AccuLoan App. All rights reserved.</p>
+            </div>
         </footer>
     );
 };

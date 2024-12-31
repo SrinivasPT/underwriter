@@ -1,3 +1,4 @@
+import json
 import mysql.connector
 import os
 from dotenv import load_dotenv
@@ -37,6 +38,7 @@ def get_db_connection():
 
 def process_pending_requests():
     """Poll the database for pending requests, process them, and update the status."""
+    logger.info("Polling for pending requests...")
     connection = None
     request = None
     try:
@@ -70,10 +72,18 @@ def process_pending_requests():
                 (INSTANCE_ID, request["id"]),
             )
             connection.commit()
+            logger.info("Changed the record status to 'processing'.")
 
             # Run the workflow (ensure compiled_workflow is defined or imported)
-            payload = request["payload"]
-            result = compiled_workflow.invoke(payload)
+            payload = json.loads(request["payload"])
+
+            logger.info("Invoking the workflow...")
+
+            result = compiled_workflow.invoke(
+                {"id": request["id"], "request_json": payload}
+            )
+
+            logger.info("Completed the workflow execution.")
 
             # Update the request with the result and mark as completed
             cursor.execute(
@@ -86,6 +96,8 @@ def process_pending_requests():
             )
             connection.commit()
 
+            logger.info("Marked the record as completed")
+
             # Insert the response into the request_response table
             cursor.execute(
                 """
@@ -95,6 +107,8 @@ def process_pending_requests():
                 (request["id"], result),
             )
             connection.commit()
+
+            logger.info("Added response to the request_response table.")
 
             logger.info(f"Completed processing request ID: {request['id']}")
             return True  # Indicate that a record was processed

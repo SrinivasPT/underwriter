@@ -21,7 +21,7 @@ For each area, ensure that:
 - The `value` is directly derived from the provided CIBIL data and consistent with the `comments`.
 - The `comments` provide detailed steps, calculations, or observations explaining how the `value` was determined.
 
-Provide the response as an array of JSON objects, each with these keys:
+Provide the response as an array of JSON objects, each with these keys (important: Do not include any additional text or markdown formatting):
 {{
     "area": "string",  # The analyzed parameter or area (e.g., 'Credit Score', 'Payment History')
     "value": "string or float",  # The computed value or classification (e.g., 750, 'Good', 'Fair')

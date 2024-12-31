@@ -35,14 +35,12 @@ Evaluate:
 4. Risk Indicators: Identify risks based on findings from both individual analyses and raw data (e.g., high credit utilization, low balance, or irregular payments).
 5. Alignment with Loan Policy: Verify that the requested loan amount, tenure, and interest rate are within policy guidelines.
 
-For each area, provide a JSON object with these keys:
+Provide the response as an array of JSON objects, each with these keys (important: Do not include any additional text or markdown formatting):
 {{
     "area": "string",  # The analyzed parameter or area (e.g., 'Eligibility', 'Income Assessment', 'DBR')
     "value": "string or float",  # The computed value or classification (e.g., 'Premium', 750, 50%)
     "comments": ["string"]  # Detailed justification, including calculations or observations
 }}
-
-Ensure consistency between individual analyses and raw data while providing a holistic evaluation.
 """
 
     response = llm.invoke(prompt)

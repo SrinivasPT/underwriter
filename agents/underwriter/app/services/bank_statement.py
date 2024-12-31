@@ -19,7 +19,7 @@ For each area, ensure that:
 - The `value` is derived directly from the provided data and justified explicitly in the `comments`.
 - The `comments` include detailed steps, calculations, or observations that explain how the `value` was determined.
 
-Provide the response as an array of JSON objects, each with these keys:
+Provide the response as an array of JSON objects, each with these keys (important: Do not include any additional text or markdown formatting):
 {{
     "area": "string",  # The analyzed parameter or area (e.g., 'Salary Consistency', 'EMI Behavior')
     "value": "string or float",  # The computed value or classification (e.g., 0.85, 'Irregular')

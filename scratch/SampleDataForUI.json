@@ -1,0 +1,377 @@
+{
+    "id": "2444A2609EC348DE8F894E160A7C2F83",
+    "request_json": {
+        "id": "781cd43f-9107-4a5c-942e-1eab1f189f4e",
+        "cibil_report": {
+            "scoreDetails": {
+                "CIBILScore": 780,
+                "scoreGrade": "Excellent",
+                "scoreRange": "300-900"
+            },
+            "creditSummary": {
+                "numberOfAccounts": 2,
+                "numberOfDefaults": 0,
+                "totalCreditLimit": 1000000,
+                "totalOutstanding": 450000,
+                "creditUtilization": 45,
+                "oldestAccountDate": "2015-01-15",
+                "mostRecentAccountDate": "2023-08-01",
+                "averageAccountAgeMonths": 72
+            },
+            "reportDetails": {
+                "currency": "INR",
+                "reportID": "CIBIL9876543210",
+                "reportType": "Individual",
+                "generatedDate": "2024-12-01T10:15:30Z"
+            },
+            "personalDetails": {
+                "PAN": "ABCDE1234F",
+                "name": "John Doe",
+                "gender": "Male",
+                "address": [
+                    {
+                        "city": "Mumbai",
+                        "type": "Permanent",
+                        "line1": "Flat 401, Shanti Residency",
+                        "line2": "Sector 15, Navi Mumbai",
+                        "state": "Maharashtra",
+                        "country": "India",
+                        "pincode": "400705"
+                    },
+                    {
+                        "city": "Mumbai",
+                        "type": "Current",
+                        "line1": "Plot No 12, Green Park",
+                        "line2": "Andheri East",
+                        "state": "Maharashtra",
+                        "country": "India",
+                        "pincode": "400093"
+                    }
+                ],
+                "dateOfBirth": "1990-01-15",
+                "AadhaarNumber": "1234-5678-1234",
+                "contactDetails": {
+                    "email": "john.doe@example.com",
+                    "phoneNumber": "+91-9876543210"
+                }
+            },
+            "employmentDetails": {
+                "income": {
+                    "currency": "INR",
+                    "lastUpdated": "2024-12-01",
+                    "monthlyIncome": 75000
+                },
+                "employerName": "TCS Pvt Ltd",
+                "employmentType": "Salaried"
+            }
+        },
+        "bank_statement": {
+            "bankStatement": {
+                "transactions": [
+                    {
+                        "amount": 75000,
+                        "referenceNumber": "SAL1234567890",
+                        "transactionDate": "2024-03-05",
+                        "transactionType": "Credit",
+                        "transactionDescription": "Salary Credit - TCS Pvt Ltd",
+                        "balanceAfterTransaction": 175000
+                    },
+                    {
+                        "amount": 50000,
+                        "referenceNumber": "ATM1234567890",
+                        "transactionDate": "2024-03-10",
+                        "transactionType": "Debit",
+                        "transactionDescription": "ATM Withdrawal",
+                        "balanceAfterTransaction": 125000
+                    },
+                    {
+                        "amount": 30000,
+                        "referenceNumber": "ORD1234567890",
+                        "transactionDate": "2024-03-15",
+                        "transactionType": "Debit",
+                        "transactionDescription": "Online Purchase - Flipkart",
+                        "balanceAfterTransaction": 95000
+                    },
+                    {
+                        "amount": 25000,
+                        "referenceNumber": "EMI1234567890",
+                        "transactionDate": "2024-03-20",
+                        "transactionType": "Debit",
+                        "transactionDescription": "EMI Payment - Home Loan HDFC",
+                        "balanceAfterTransaction": 70000
+                    },
+                    {
+                        "amount": 70000,
+                        "referenceNumber": "SAL9876543210",
+                        "transactionDate": "2024-04-05",
+                        "transactionType": "Credit",
+                        "transactionDescription": "Salary Credit - TCS Pvt Ltd",
+                        "balanceAfterTransaction": 140000
+                    },
+                    {
+                        "amount": 20000,
+                        "referenceNumber": "BILL1234567890",
+                        "transactionDate": "2024-04-15",
+                        "transactionType": "Debit",
+                        "transactionDescription": "Utility Payment - Electricity",
+                        "balanceAfterTransaction": 120000
+                    },
+                    {
+                        "amount": 80000,
+                        "referenceNumber": "SAL1357924680",
+                        "transactionDate": "2024-05-05",
+                        "transactionType": "Credit",
+                        "transactionDescription": "Salary Credit - TCS Pvt Ltd",
+                        "balanceAfterTransaction": 200000
+                    },
+                    {
+                        "amount": 40000,
+                        "referenceNumber": "EMI4680135792",
+                        "transactionDate": "2024-05-20",
+                        "transactionType": "Debit",
+                        "transactionDescription": "EMI Payment - Home Loan HDFC",
+                        "balanceAfterTransaction": 160000
+                    },
+                    {
+                        "amount": 60000,
+                        "referenceNumber": "SAL0987654321",
+                        "transactionDate": "2024-06-05",
+                        "transactionType": "Credit",
+                        "transactionDescription": "Salary Credit - TCS Pvt Ltd",
+                        "balanceAfterTransaction": 220000
+                    },
+                    {
+                        "amount": 50000,
+                        "referenceNumber": "MED1234567890",
+                        "transactionDate": "2024-06-25",
+                        "transactionType": "Debit",
+                        "transactionDescription": "Medical Expenses",
+                        "balanceAfterTransaction": 170000
+                    },
+                    {
+                        "amount": 50000,
+                        "referenceNumber": "SAL6789012345",
+                        "transactionDate": "2024-07-05",
+                        "transactionType": "Credit",
+                        "transactionDescription": "Salary Credit - TCS Pvt Ltd",
+                        "balanceAfterTransaction": 220000
+                    },
+                    {
+                        "amount": 60000,
+                        "referenceNumber": "VAC4567890123",
+                        "transactionDate": "2024-07-10",
+                        "transactionType": "Debit",
+                        "transactionDescription": "Vacation Expenses",
+                        "balanceAfterTransaction": 160000
+                    },
+                    {
+                        "amount": 40000,
+                        "referenceNumber": "SAL8765432109",
+                        "transactionDate": "2024-08-05",
+                        "transactionType": "Credit",
+                        "transactionDescription": "Salary Credit - TCS Pvt Ltd",
+                        "balanceAfterTransaction": 200000
+                    },
+                    {
+                        "amount": 60000,
+                        "referenceNumber": "EMI1234567890",
+                        "transactionDate": "2024-08-20",
+                        "transactionType": "Debit",
+                        "transactionDescription": "EMI Payment - Home Loan HDFC",
+                        "balanceAfterTransaction": 140000
+                    },
+                    {
+                        "amount": 100000,
+                        "referenceNumber": "MISC0987654321",
+                        "transactionDate": "2024-08-31",
+                        "transactionType": "Debit",
+                        "transactionDescription": "Miscellaneous Expenses",
+                        "balanceAfterTransaction": 40000
+                    }
+                ],
+                "accountDetails": {
+                    "branch": "Andheri East, Mumbai",
+                    "currency": "INR",
+                    "ifscCode": "ICIC0001234",
+                    "accountType": "Savings",
+                    "accountNumber": "ICICI9876543210",
+                    "closingBalance": 40000,
+                    "openingBalance": 100000,
+                    "statementPeriod": {
+                        "endDate": "2024-08-31",
+                        "startDate": "2024-03-01"
+                    },
+                    "accountHolderName": "John Doe"
+                },
+                "transactionSummary": {
+                    "totalDeposits": 300000,
+                    "totalWithdrawals": 360000,
+                    "numberOfTransactions": 60
+                }
+            }
+        },
+        "policy_document": "\n    # Consumer Finance Programs & Guidelines\n\n    ## Program Categories\n    | Category                | Age Eligibility | Monthly Income         | Target Audience                          |\n    |-------------------------|-----------------|------------------------|------------------------------------------|\n    | Premium Salary Account  | 24 - 60 years  | Net Salary ₹30,000+   | MNC, PSU, & Top-Tier Pvt Employees       |\n    | Regular Income          | 23 - 62 years  | Gross Income ₹40,000+ | Govt, Pvt Ltd, Professionals             |\n    | Business Owner          | 28 - 65 years  | L3M Avg Credits ₹1L+  | SMEs, Startups, & Retailers              |\n\n    ## Eligibility Matrix\n    | Parameter               | Premium                  | Regular                  | Business                |\n    |-------------------------|--------------------------|--------------------------|-------------------------|\n    | Credit Score (CIBIL)    | Min 750                 | Min 700                 | Min 725                |\n    | Work Experience         | 12M (Current: 6M)       | 24M (Current: 9M)       | Business Vintage: 36M  |\n    | Residence Stability     | ≥12M Any Type           | ≥18M Any Type           | ≥24M Self-Owned        |\n\n    ## Loan Product Structure\n    | Component               | Premium                 | Regular                 | Business               |\n    |-------------------------|--------------------------|--------------------------|-------------------------|\n    | Loan Range              | ₹1L - ₹20L              | ₹50K - ₹15L             | ₹2L - ₹25L             |\n    | Tenure Options          | 12-84 months           | 12-72 months           | 12-60 months           |\n    | Interest Band           | 10% - 16%              | 12% - 20%              | 14% - 24%              |\n    | Processing Fee          | 1% - 2.5%              | 1.5% - 3%              | 2% - 4%                |\n\n    ## Income Assessment\n    | Category   | Method              | Multiplier | Maximum Limit |\n    |------------|---------------------|------------|---------------|\n    | Premium    | Fixed Salary        | 20x        | ₹20L          |\n    | Regular    | Gross Income        | 15x        | ₹15L          |\n    | Business   | Avg Monthly Credits | 15x        | ₹25L          |\n\n    ## Debt Burden Ratio (DBR)\n    | Category   | DBR Limit | Add-Ons                    |\n    |------------|-----------|----------------------------|\n    | Premium    | 55%       | +5% for Own House          |\n    | Regular    | 50%       | +3% for No Other Loans     |\n    | Business   | 45%       | Not Applicable             |\n\n    ## Banking Parameters\n    | Parameter                  | Threshold            | Impact                 | Action                 |\n    |----------------------------|----------------------|------------------------|------------------------|\n    | Avg Monthly Balance        | >₹50K               | Rate Benefit: -0.5%    | Preferential Processing|\n    | Transactions (Credit)      | ≥12/month           | +10% Loan Limit        | Incentivized Processing|\n    | Inward Cheque Bounces      | None in 12M         | Critical               | Rejected               |\n\n    ## Restricted Segments\n    | Restricted Business Types                |\n    |------------------------------------------|\n    | Betting, Gaming, & Gambling              |\n    | Crypto & Digital Currencies              |\n    | Non-Profits, Religious Organizations     |\n    | Real Estate Broking                      |\n    | Defense Personnel                        |\n    | High-Risk Export/Import Businesses       |\n\n    ## Loan Processing Workflow\n    | Step                   | Details                                               |\n    |------------------------|-------------------------------------------------------|\n    | Eligibility Check      | Automated CIBIL & DBR Validation                      |\n    | Income Verification    | Analyze salary slips, bank statements, and tax returns|\n    | Approval Matrix        | Premium: Pre-approved for listed corporates/PSUs      |\n    |                        | Regular: Standard credit evaluation process           |\n    |                        | Business: Financial and vintage verification mandatory|\n    | Disbursement           | Funds credited within 24 hours for pre-approved loans |\n\n    ## Documentation Requirements\n    | Category   | ID Proof          | Income Proof           | Bank Statement  | Residence Proof     |\n    |------------|-------------------|------------------------|-----------------|---------------------|\n    | Premium    | PAN, Aadhaar      | Salary Slips, Form 16  | Last 6 Months   | Any Valid Document  |\n    | Regular    | PAN, Aadhaar      | Salary Slips, Form 16  | Last 6 Months   | Any Valid Document  |\n    | Business   | PAN, Aadhaar      | GST Returns, IT Returns| Last 12 Months  | Property Documents  |\n\n    "
+    },
+    "bank_statement_analysis": [
+        {
+            "area": "Salary Consistency",
+            "value": 0.83,
+            "comments": [
+                "There are 6 salary credits over the 6-month period, with amounts of 75000, 70000, 80000, 60000, 50000, and 40000.",
+                "The average monthly salary credit is (75000 + 70000 + 80000 + 60000 + 50000 + 40000) / 6 = 61666.67.",
+                "The salary credits are consistent, occurring monthly without any gaps, leading to a consistency ratio of 6/6 = 1.0.",
+                "However, the amounts vary, with the lowest being 40000, which is 53.33% of the highest credit of 75000, indicating some variability in income."
+            ]
+        },
+        {
+            "area": "EMI Payments Behavior",
+            "value": "Regular",
+            "comments": [
+                "There are 3 EMI payments made during the statement period: 25000 on 2024-03-20, 40000 on 2024-05-20, and 60000 on 2024-08-20.",
+                "The total EMI payments amount to 25000 + 40000 + 60000 = 125000.",
+                "The EMI payments are made regularly, approximately every 2 months, and do not show any delays.",
+                "The proportion of EMI payments to total income (salary credits) is 125000 / 300000 = 0.4167 or 41.67%, which is a manageable level."
+            ]
+        },
+        {
+            "area": "Balance Maintenance",
+            "value": 100000,
+            "comments": [
+                "The opening balance is 100000 and the closing balance is 40000.",
+                "The average balance over the statement period can be calculated as (100000 + 40000) / 2 = 70000.",
+                "However, the average balance considering all transactions is calculated by taking the sum of balances after each transaction divided by the number of transactions.",
+                "The average balance is approximately 100000, which is adequate given the income levels, but the closing balance of 40000 indicates a significant drop."
+            ]
+        },
+        {
+            "area": "Transaction Patterns",
+            "value": "Risky",
+            "comments": [
+                "There are several high withdrawals, including 50000, 30000, 20000, 60000, and 100000.",
+                "The total withdrawals amount to 360000, which exceeds total deposits of 300000, indicating a net negative cash flow.",
+                "The closing balance of 40000 is low compared to the average monthly income of approximately 61666.67, suggesting potential liquidity issues.",
+                "Frequent high withdrawals and a low remaining balance can indicate risky financial behavior."
+            ]
+        },
+        {
+            "area": "Risk Indicators",
+            "value": "High",
+            "comments": [
+                "The account shows a pattern of high withdrawals (up to 100000) that exceed income, leading to a low closing balance.",
+                "The total withdrawals of 360000 against total deposits of 300000 indicate a reliance on credit or other sources of income.",
+                "The average balance of 70000 is not sufficient to cover the high expenses, especially with the last transaction showing a balance of only 40000.",
+                "These factors suggest potential financial instability and risk in managing expenses relative to income."
+            ]
+        }
+    ],
+    "cibil_report_analysis": [
+        {
+            "area": "Credit Score",
+            "value": "Excellent",
+            "comments": [
+                "The CIBIL score is 780, which falls within the range of 750-900, classified as 'Excellent'.",
+                "Industry benchmarks typically classify scores as follows: Poor (300-549), Fair (550-649), Good (650-749), and Excellent (750-900).",
+                "Given the score of 780, the borrower is in a strong position for loan approval."
+            ]
+        },
+        {
+            "area": "Payment History",
+            "value": "No Defaults",
+            "comments": [
+                "The report indicates 0 defaults, which signifies a strong repayment history.",
+                "A clean payment history enhances creditworthiness and indicates reliability in repaying loans.",
+                "No late payments or irregularities were noted, further supporting the borrower's credit profile."
+            ]
+        },
+        {
+            "area": "Credit Utilization",
+            "value": "45.0%",
+            "comments": [
+                "The credit utilization ratio is calculated as (Total Outstanding / Total Credit Limit) * 100.",
+                "Here, it is (450000 / 1000000) * 100 = 45.0%.",
+                "While the acceptable range is typically 30%-40%, a utilization above this threshold may indicate over-reliance on credit, which can negatively impact creditworthiness."
+            ]
+        },
+        {
+            "area": "Account Mix",
+            "value": "2 Accounts (Type Not Specified)",
+            "comments": [
+                "The report shows 2 accounts, but does not specify if they are secured or unsecured.",
+                "A healthy mix of secured (e.g., home loans) and unsecured loans (e.g., credit cards) is generally favorable.",
+                "Given the borrower's salaried status and income, a typical profile would include a mix of both types of accounts."
+            ]
+        },
+        {
+            "area": "Hard Inquiries",
+            "value": "Not Specified",
+            "comments": [
+                "The report does not provide information on the number of hard inquiries in the past year.",
+                "Typically, more than 2-3 hard inquiries can negatively impact the credit score.",
+                "If there are no recent inquiries, it suggests stability in the borrower's credit-seeking behavior."
+            ]
+        },
+        {
+            "area": "Risk Indicators",
+            "value": "Low Risk",
+            "comments": [
+                "The absence of defaults and a good credit score indicate low financial risk.",
+                "However, the credit utilization of 45% could be a potential risk factor if it persists, as it may suggest financial strain.",
+                "Overall, the report reflects a responsible borrower with a solid repayment history."
+            ]
+        },
+        {
+            "area": "Income-to-EMI Ratio",
+            "value": "Not Specified",
+            "comments": [
+                "The report does not provide specific EMI obligations, making it impossible to calculate the income-to-EMI ratio.",
+                "Typically, a ratio below 50% is considered acceptable, indicating that the borrower can comfortably manage their loan repayments.",
+                "The monthly income is stated as 75000, but without EMI details, further analysis cannot be performed."
+            ]
+        }
+    ],
+    "loan_application_review": [
+        {
+            "area": "Eligibility",
+            "value": "Regular",
+            "comments": [
+                "The applicant is 34 years old, which falls within the age eligibility of 23 - 62 years for the Regular category.",
+                "The declared monthly income is ₹75,000, which exceeds the Gross Income requirement of ₹40,000 for the Regular category.",
+                "The CIBIL score is 780, which meets the minimum requirement of 700 for the Regular category."
+            ]
+        },
+        {
+            "area": "Income Assessment",
+            "value": 1125000,
+            "comments": [
+                "The average monthly salary credits over the 6-month period total ₹300,000, leading to an average monthly income of ₹75,000.",
+                "The maximum eligible loan amount for the Regular category is calculated as ₹75,000 * 15 = ₹1,125,000, which is within the policy limit of ₹15L."
+            ]
+        },
+        {
+            "area": "DBR",
+            "value": "41.67%",
+            "comments": [
+                "Total EMI payments during the statement period amount to ₹125,000.",
+                "The DBR is calculated as (Total EMI Payments / Total Income) * 100 = (125000 / 300000) * 100 = 41.67%.",
+                "This is below the DBR limit of 50% for the Regular category, indicating compliance."
+            ]
+        },
+        {
+            "area": "Risk Indicators",
+            "value": "High",
+            "comments": [
+                "The bank statement shows a total of ₹360,000 in withdrawals against ₹300,000 in deposits, indicating a net negative cash flow.",
+                "The closing balance of ₹40,000 is low compared to the average monthly income of ₹75,000, suggesting potential liquidity issues.",
+                "The credit utilization ratio is 45%, which is above the typical acceptable range of 30%-40%, indicating over-reliance on credit."
+            ]
+        },
+        {
+            "area": "Alignment with Loan Policy",
+            "value": "Within Policy Guidelines",
+            "comments": [
+                "The applicant is eligible for a loan amount up to ₹1,125,000 based on income assessment.",
+                "The requested loan amount, tenure, and interest rate must be confirmed to ensure they fall within the policy guidelines for the Regular category."
+            ]
+        }
+    ]
+}
